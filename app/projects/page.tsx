@@ -33,6 +33,27 @@ const projects = [
     image: '/placeholder.svg?height=400&width=600',
     link: 'https://github.com/Flashy990/Chat-Room-Application',
   },
+  {
+    id: 5,
+    title: 'MultiThreaded OULAD Database Analyzer',
+    description: 'Processing the Open University Learning Analytics Dataset (OULAD) to track student interactions with course materials, implementing both sequential and concurrent (producer-consumer model) solutions to optimize performance and generate daily click summaries for each course.',
+    image: '/placeholder.svg?height=400&width=600',
+    link: 'https://github.com/Flashy990/MultiThreaded-OULAD-Analyzer',
+  },
+  {
+    id: 6,
+    title: 'UNIX Shell Clone',
+    description: 'A shell clone leveraging concepts such as system calls, forking, pipes, process control and user command parsing.',
+    image: '/placeholder.svg?height=400&width=600',
+    link: 'https://github.com/Flashy990/UNIX-shell',
+  },
+  {
+    id: 6,
+    title: 'Custom Language Development OcamlMini',
+    description: 'OcamlMini is a lightweight, custom programming language developed using OCaml. This project serves as an educational and practical exploration into language design, compiler construction, and operational semantics.',
+    image: '/placeholder.svg?height=400&width=600',
+    link: 'https://github.com/Flashy990/Custom-Language-Development-OcamlMini',
+  },
 ]
 
 export default function Projects() {
