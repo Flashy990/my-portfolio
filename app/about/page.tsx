@@ -3,13 +3,11 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 
-type SkillCategory = 'Programming Languages' | 'Full-Stack Development' | 'Frontend' | 'Backend' | 'Database' | 'Cloud & DevOps' | 'Version Control' | 'Operating Systems' | 'Development Tools' | 'Machine Learning & Data Science' | 'Testing & Quality Assurance' | 'Software Development Methodologies' | 'Engineering Software';
+type SkillCategory = 'Programming Languages' | 'Full-Stack Development' | 'Database' | 'Cloud & DevOps' | 'Version Control' | 'Operating Systems' | 'Development Tools' | 'Machine Learning & Data Science' | 'Testing & Quality Assurance' | 'Software Development Methodologies' | 'Engineering Software';
 
 const skills: Record<SkillCategory, string[]> = {
   'Programming Languages': ['C', 'C++', 'C#', 'Java', 'Python', 'Rust', 'Go', 'Bash', 'Ruby', 'JavaScript', 'TypeScript', 'VHDL', 'MATLAB'],
   'Full-Stack Development': ['React', 'Next.js', 'Node.js', 'Express', 'Django', 'FastAPI', 'Flask', '.NET', 'RESTful APIs', 'Spring Boot', 'HTML/CSS', 'Tailwind CSS', 'Framer Motion'],
-  'Frontend': ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-  'Backend': ['Node.js', 'Express', 'Python', 'Django', 'GraphQL', 'RESTful APIs'],
   'Database': ['MongoDB', 'PostgreSQL', 'MySQL'],
   'Cloud & DevOps': ['Docker', 'AWS', 'Google Cloud Platform (GCP)', 'CI/CD', 'Git', 'GitLab'],
   'Version Control': ['Git', 'GitHub', 'GitLab'],
@@ -55,7 +53,7 @@ const timelineEvents = [
 ]
 
 export default function About() {
-  const [activeCategory, setActiveCategory] = useState<SkillCategory>('Frontend');
+  const [activeCategory, setActiveCategory] = useState<SkillCategory>('Programming Languages');
 
   return (
     <div className="max-w-4xl mx-auto">
