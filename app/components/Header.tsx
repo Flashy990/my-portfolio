@@ -26,7 +26,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
-                key={item.name}
+                key={item.href}
                 href={item.href}
                 className={`text-base font-medium px-3 py-2 rounded-md transition-colors duration-200 ${
                   pathname === item.href
@@ -44,4 +44,3 @@ export default function Header() {
     </header>
   )
 }
-

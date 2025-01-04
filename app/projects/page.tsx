@@ -48,7 +48,7 @@ const projects = [
     link: 'https://github.com/Flashy990/UNIX-shell',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Custom Language Development OcamlMini',
     description: 'OcamlMini is a lightweight, custom programming language developed using OCaml. This project serves as an educational and practical exploration into language design, compiler construction, and operational semantics.',
     image: '/placeholder.svg?height=400&width=600',
