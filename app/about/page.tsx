@@ -36,7 +36,7 @@ const timelineEvents = [
     id: 3,
     year: '2023',
     title: 'Got a Return Offer From Berkshire Hathaway Energy',
-    description: 'Got a return offer to continue working at Berkshire Hathaway Energy and further develop the software enhancing cybsersecurity measures.',
+    description: 'Got a return offer to continue working at Berkshire Hathaway Energy as a software engineer and continue working on developing software to enhance cybsersecurity measures.',
   },
   {
     id: 4,
