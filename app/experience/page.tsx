@@ -24,7 +24,7 @@ const experiences = [
   },
   {
     title: 'B.S. in Computer Engineering',
-    company: 'University Name',
+    company: 'University of Maryland, College Park',
     date: 'Graduated: May 2024',
     description: 'Relevant coursework: Operating Systems, Software Engineering, Advanced Data Structures and Algorithms, Computer Architecture, Computer Systems, Machine Learning, Digital Logic Design, Circuit Analysis, Signal Processing, Object Oriented Programming',
     icon: AcademicCapIcon,
