@@ -18,7 +18,7 @@ const hobbies = [
   },
   {
     name: 'Reading',
-    description: 'Diving into books on technology, science fiction, and personal development.',
+    description: 'I enjoy reading philosophical books on Stoicism, which help guide my approach to life and work, and occasionally dive into sci-fi for creative inspiration and exploration.',
     image: '/reading_img.jpg',
   },
   {
