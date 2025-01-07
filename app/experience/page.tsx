@@ -23,9 +23,9 @@ const experiences = [
     icon: BriefcaseIcon,
   },
   {
-    title: 'B.S. in Computer Science',
+    title: 'B.S. in Computer Engineering',
     company: 'University Name',
-    date: 'Graduated: May 2015',
+    date: 'Graduated: May 2024',
     description: 'Relevant coursework: Operating Systems, Software Engineering, Advanced Data Structures and Algorithms, Computer Architecture, Computer Systems, Machine Learning, Digital Logic Design, Circuit Analysis, Signal Processing, Object Oriented Programming',
     icon: AcademicCapIcon,
   },
