@@ -17,6 +17,9 @@ async function CurrentTrack() {
 
   try {
     const response = await getNowPlaying()
+    // Log the response
+    // console.log('Response:', response)
+
     if (response.status === 204 || response.status > 400) {
       // No track currently playing
       return (
@@ -27,6 +30,7 @@ async function CurrentTrack() {
     }
 
     const data = await response.json()
+    console.log('Response Data:', data)
     trackData = {
       isPlaying: data.is_playing,
       title: data.item.name,
@@ -91,10 +95,10 @@ export default function MusicActivity() {
         <Suspense fallback={<div>Loading...</div>}>
           <CurrentTrack />
         </Suspense>
-        <div className="mt-8">
+        {/* <div className="mt-8">
           <h2 className="text-2xl font-semibold mb-4">Music Visualizer</h2>
           <MusicVisualizer />
-        </div>
+        </div> */}
       </div>
     </PageTransition>
   )
