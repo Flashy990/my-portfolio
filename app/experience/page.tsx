@@ -2,7 +2,7 @@ import { BriefcaseIcon, AcademicCapIcon } from '@heroicons/react/24/outline'
 
 const experiences = [
   {
-    title: 'M.S. in Computer Science',
+    title: 'M.S. in Computer Science - Current GPA: 4.00',
     company: 'Northeastern University',
     date: 'Expected Graduation: May 2026',
     description: 'Relevant coursework: Programming Design Paradigms, Natural Language Processing',
@@ -23,7 +23,7 @@ const experiences = [
     icon: BriefcaseIcon,
   },
   {
-    title: 'B.S. in Computer Engineering',
+    title: 'B.S. in Computer Engineering - Final GPA: 3.89',
     company: 'University of Maryland, College Park',
     date: 'Graduated: May 2024',
     description: 'Relevant coursework: Operating Systems, Software Engineering, Advanced Data Structures and Algorithms, Computer Architecture, Computer Systems, Machine Learning, Digital Logic Design, Circuit Analysis, Signal Processing, Object Oriented Programming',

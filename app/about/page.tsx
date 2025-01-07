@@ -78,8 +78,7 @@ export default function About() {
           <p className="text-base text-gray-700 dark:text-gray-300">
             I am a software engineer with a passion for building scalable and efficient applications. 
             With a strong foundation in computer science, computer engineering and industry experience, 
-            I continuously strive to learn new technologies and improve my skills. 
-            When I'm not coding, you can find me exploring nature trails or working on my personal projects.
+            I continuously strive to learn new technologies and improve my skills.
           </p>
         </div>
       </motion.div>
