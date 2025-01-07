@@ -15,9 +15,9 @@ export default function Home() {
       >
         <h1 className="text-5xl font-bold mb-6">Welcome to My Portfolio</h1>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
-        Ever since I can remember, I’ve been obsessed with how things work—especially when it comes to computers. It started with tinkering around, breaking (and eventually fixing) old hardware, and spiraled into a full-blown love for building PCs and diving deep into C++.
-        When I’m not elbow-deep in a computer case or geeking out over GPUs, I’m probably coding, traveling, gaming, or jamming to my favorite playlists.
-        For me, it’s not just about tech—it’s about the thrill of creating, solving problems, and having fun along the way
+        Ever since I can remember, I have been obsessed with how things work—especially when it comes to computers. It started with tinkering around, breaking (and eventually fixing) old hardware, and spiraled into a full-blown love for building PCs and diving deep into C++.
+        When I am not elbow-deep in a computer case or geeking out over GPUs, I am probably coding, learning new technologies, tinkering with microcontrollers, gaming, or jamming to my favorite playlists.
+        For me, it is not just about tech—it is about the thrill of creating, solving problems, and having fun along the way.
         </p>
         <Link
           href="/about"
