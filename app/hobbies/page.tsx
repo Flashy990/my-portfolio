@@ -22,8 +22,8 @@ const hobbies = [
     image: '/reading_img.jpg',
   },
   {
-    name: 'Custom PC and Keyboard Building',
-    description: 'I love tinkering with things.',
+    name: 'PC & Keyboard Modding',
+    description: 'I enjoy modding keyboards and building custom PCs, blending functionality with personal style.',
     image: '/pc_img_1.png',
   },
   {
