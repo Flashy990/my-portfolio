@@ -2,24 +2,34 @@ import PageTransition from '../components/PageTransition'
 
 const hobbies = [
   {
-    name: 'Go Karting and Sim Racing',
-    description: 'I love racing in general.',
-    image: '/placeholder.svg?height=200&width=300',
+    name: 'Hardware Hacking',
+    description: 'I love tinkering with hardware, from microcontrollers to FPGA boards, turning ideas into tangible projects.',
+    image: '/placeholder.svg',
   },
   {
-    name: 'Hiking and Travelling',
+    name: 'Go Karting and Sim Racing',
+    description: 'I love racing in general.',
+    image: '/go_karting_at_yas_kartzone.png',
+  },
+  {
+    name: 'Hiking and Traveling',
     description: 'Exploring nature trails and enjoying the great outdoors.',
-    image: '/placeholder.svg?height=200&width=300',
+    image: '/White_Mountains.JPEG',
   },
   {
     name: 'Reading',
     description: 'Diving into books on technology, science fiction, and personal development.',
-    image: '/placeholder.svg?height=200&width=300',
+    image: '/reading_img.jpg',
   },
   {
     name: 'Custom PC and Keyboard Building',
-    description: '',
-    image: '/placeholder.svg?height=200&width=300',
+    description: 'I love tinkering with things.',
+    image: '/pc_img_1.png',
+  },
+  {
+    name: 'Movies and Anime',
+    description: 'Marvel, DC, and One Piece are my favorites.',
+    image: '/straw_hat.jpg',
   },
 ]
 
