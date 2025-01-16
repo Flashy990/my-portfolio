@@ -6,7 +6,7 @@ import { useState } from 'react'
 type SkillCategory = 'Programming Languages' | 'Full-Stack Development' | 'Database' | 'Cloud & DevOps' | 'Version Control' | 'Operating Systems' | 'Development Tools' | 'Machine Learning & Data Science' | 'Testing & Quality Assurance' | 'Software Development Methodologies' | 'Engineering Software';
 
 const skills: Record<SkillCategory, string[]> = {
-  'Programming Languages': ['C', 'C++', 'C#', 'Java', 'Python', 'Rust', 'Go', 'Bash', 'Ruby', 'JavaScript', 'TypeScript', 'VHDL', 'MATLAB'],
+  'Programming Languages': ['C', 'C++', 'C#', 'ARM Assembly', 'Java', 'Python', 'Rust', 'Go', 'Bash', 'Ruby', 'JavaScript', 'TypeScript', 'VHDL', 'MATLAB'],
   'Full-Stack Development': ['React', 'Next.js', 'Node.js', 'Express', 'Django', 'FastAPI', 'Flask', '.NET', 'RESTful APIs', 'Spring Boot', 'HTML/CSS', 'Tailwind CSS', 'Framer Motion'],
   'Database': ['MongoDB', 'PostgreSQL', 'MySQL'],
   'Cloud & DevOps': ['Docker', 'AWS', 'Google Cloud Platform (GCP)', 'CI/CD', 'Git', 'GitLab'],
