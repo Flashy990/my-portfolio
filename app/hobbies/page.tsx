@@ -3,8 +3,8 @@ import PageTransition from '../components/PageTransition'
 const hobbies = [
   {
     name: 'Hardware Hacking',
-    description: 'I love tinkering with hardware, from microcontrollers to FPGA boards, turning ideas into tangible projects.',
-    image: '/placeholder.svg',
+    description: 'I love tinkering with hardware, from microcontrollers to FPGA boards.',
+    image: '/hw_tinkering.jpg',
   },
   {
     name: 'Go Karting and Sim Racing',
