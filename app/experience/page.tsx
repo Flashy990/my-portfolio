@@ -2,7 +2,7 @@ import { BriefcaseIcon, AcademicCapIcon } from '@heroicons/react/24/outline'
 
 const experiences = [
   {
-    title: 'Software Development Engineer',
+    title: 'Software Development Engineering Intern',
     company: 'Amazon',
     date: 'May 2025 - Aug 2025',
     description: '',
